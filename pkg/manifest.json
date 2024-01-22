@@ -1,0 +1,14 @@
+[
+    {
+        "process_name": "eth_provider",
+        "process_wasm_path": "/eth_provider.wasm",
+        "on_exit": "Restart",
+        "request_networking": true,
+        "request_capabilities": [
+            "net:sys:nectar",
+            "http_server:sys:nectar"
+        ],
+        "grant_capabilities": [],
+        "public": true
+    }
+]
